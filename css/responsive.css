@@ -1,0 +1,37 @@
+/*		Default Layout: 992px.*/
+
+
+
+/*		Tablet Layout: 768px.
+		Inherits styles from: Default Layout.
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.service {margin-bottom: 30px;}
+
+
+}
+
+
+
+/*		Mobile Layout: 320px.
+		Inherits styles from: Default Layout.
+*/
+
+@media only screen and (max-width: 767px) {
+.search {margin-top: 10px;}
+.service {margin-bottom: 20px;}
+
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Inherits styles from: Default Layout, Mobile Layout.
+*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.service {margin-bottom: 10px;}
+
+
+}
